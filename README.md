@@ -18,9 +18,8 @@ as a nibble.
 Example:
 ========
 
-   ./des -e -k anitest1 -f adata.dat  > enc.dat
-   ./des -d -k anitest1 -f enc.dat
-
+     ./des -e -k anitest1 -f adata.dat  > enc.dat
+     ./des -d -k anitest1 -f enc.dat
 
 Note:
 -----
@@ -43,7 +42,7 @@ Source files:
 Tests:
 ======
 
-Run a simple regression with regress.pl
+Run a simple regression with `regress.pl`
 
 References:
 ===========
